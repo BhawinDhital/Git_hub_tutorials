@@ -1,0 +1,30 @@
+This is the beginner's guide to jump into Github. The following are the steps you should follow to create
+some files in your local computer and then move into Github.
+
+1. First create a Github account online.
+2.In that account, create a repository: you can write any name. For example: Git_hub_tutorials.
+3. Go to your local computer and create a folder/directory and give some name.
+You can write any name. For example, say Git_hub. If you are doing all it via
+terminal then use: mkdir Git_hub.
+4. Create or transfer all files you want to transfer to Github repository in that directory in your
+local computer.
+5. Go to your github account and look the right side of your repository. There is an option
+"clone or download". Clone/copy the link.
+6. Go to the terminal. Through terminal go to the corresponding location where you have saved all those files
+to upload in the github.
+7.In terminal, type : get + clone + clone link(repository link).
+Doing this creates a folder/repository inside Git_hub. Now transfer all files to this new folder/repository
+inside Git_hub folder. For example, if you have given the repository name in your github account as
+"Git_hub_tutorials" then inside Git_hubthere will be a folder named "Git_hub_tutorials" after you clone and run
+git  clone link(repository link).
+8.copy all files to that repository(Git_hub_tutorials). This means
+Type :cp file_name Git_hub_tutorials
+9.Type : git status (Typing this command gives red color statement)
+10. Type : git add (file_name)
+11.Type : git status(it shows green if the file is added)
+12. Type : git commit -m "file_name"
+13. Type : git push origin master.
+
+You can do the same thing manually. If you decided not going through the terminal, then you can do it
+manually, just creating a folder and adding all files in that folder in your local computer.
+Then go the Github repository and use upload. You can upload your files from the destination folder.
